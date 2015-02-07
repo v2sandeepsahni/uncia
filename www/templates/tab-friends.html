@@ -1,0 +1,15 @@
+<ion-view view-title="Employee Directory">
+  <ion-content>
+      <p></p>
+      <label class="item item-input">
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="search" placeholder="Search">
+      </label>
+    <ion-list>
+      <ion-item class="item-avatar" ng-repeat="friend in friends" type="item-text-wrap" href="#/tab/friend/{{friend.id}}">
+        <img ng-src="{{friend.face}}">
+        <h2>{{friend.name}}</h2>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
