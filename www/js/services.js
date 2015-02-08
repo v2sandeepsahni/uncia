@@ -52,6 +52,55 @@ angular.module('starter.services', [])
 /**
  * A simple example service that returns some data.
  */
+    .factory('Requests', function() {
+        // Might use a resource here that returns a JSON array
+
+        // Some fake testing data
+        var requests = [{
+            id: 0,
+            name: 'Leave Request',
+            notes: 'Submit new leave request',
+            icon:'ion-plane',
+            action: 'https://pbs.twimg.com/profile_images/514549811765211136/9SgAuHeY.png'
+        }, {
+            id: 1,
+            name: 'Mis-Punch Request',
+            notes: 'Add new mis-puch request',
+            icon:'ion-ios-download',
+            action: 'https://avatars3.githubusercontent.com/u/11214?v=3&s=460'
+        }, {
+            id: 2,
+            name: 'Out-Door Request',
+            notes: 'Add out-door visit request',
+            icon:'ion-model-s',
+            action: 'https://pbs.twimg.com/profile_images/491274378181488640/Tti0fFVJ.jpeg'
+        }, {
+            id: 3,
+            name: 'Comp-Off Request',
+            notes: 'Apply for comp-off',
+            action: 'https://pbs.twimg.com/profile_images/491995398135767040/ie2Z_V6e.jpeg'
+        }, {
+            id: 4,
+            name: 'Gate-Pass Request',
+            notes: 'Apply for gate pass',
+            icon : 'ion-android-walk',
+            action: 'https://pbs.twimg.com/profile_images/491995398135767040/ie2Z_V6e.jpeg'
+        }];
+
+        return {
+            all: function() {
+                return requests;
+            },
+            get: function(friendId) {
+                // Simple index lookup
+                return requests[friendId];
+            }
+        }
+    })
+
+/**
+ * A simple example service that returns some data.
+ */
 .factory('Friends', function() {
   // Might use a resource here that returns a JSON array
 
@@ -93,4 +142,28 @@ angular.module('starter.services', [])
       return friends[friendId];
     }
   }
+})
+
+/**
+ * A simple example service that returns some data.
+ */
+.factory('UserProfile', function() {
+    // Might use a resource here that returns a JSON array
+
+    // Some fake testing data
+    var userprofile = {
+        id: 0,
+        name: 'Mobile User',
+        address: 'Enjoys drawing things',
+        homephone: '2342424',
+        mobile:'23',
+        email:'test@test.com',
+        dept:'stupid'
+    }
+
+    return {
+        all: function() {
+            return userprofile;
+        }
+    }
 });

@@ -1,15 +1,19 @@
 <ion-view view-title="Account">
   <ion-content>
     <ion-list>
-      <ion-item class="item-toggle">
-        Enable Friends
-        <label class="toggle">
-          <input type="checkbox" ng-model="settings.enableFriends">
-          <div class="track">
-            <div class="handle"></div>
-          </div>
-        </label>
-      </ion-item>
+        <ion-item class="item-stacked-label"><label class="toggle">User Name : {{userprofile.name}}</label></ion-item>
+        <ion-item class="item-stacked-label"><label class="toggle">Department : {{userprofile.dept}}</label></ion-item>
+        <ion-item class="item-stacked-label"><label class="toggle">Address : {{userprofile.address}}</label></ion-item>
+        <ion-item class="item-stacked-label"><label class="toggle">Phone Number : {{userprofile.homephone}}</label></ion-item>
+        <ion-item class="item-stacked-label"><label class="toggle">Mobile Number : {{userprofile.mobile}}</label></ion-item>
+        <ion-item class="item-toggle">
+            Enable Email Alerts
+            <label class="toggle">
+                <input type="checkbox" ng-model="settings.enableFriends">
+                <div class="track">
+                    <div class="handle"></div>
+                </div>
+            </label>
     </ion-list>
   </ion-content>
 </ion-view>
