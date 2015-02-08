@@ -1,0 +1,2 @@
+E:\RAD\uncia\obj\Debug\uncia.njsprojResolveAssemblyReference.cache
+E:\RAD\uncia\bin\Microsoft.NodejsTools.WebRole.dll
