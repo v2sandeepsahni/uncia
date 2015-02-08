@@ -61,7 +61,7 @@ angular.module('starter.services', [])
             name: 'Leave Request',
             notes: 'Submit new leave request',
             icon: 'ion-plane',
-            action: 'https://pbs.twimg.com/profile_images/514549811765211136/9SgAuHeY.png'
+            action: 'leave'
         }, {
             id: 1,
             name: 'Mis-Punch Request',
@@ -180,4 +180,18 @@ angular.module('starter.services', [])
         }
     }
 })
+
+    .factory('Leave', function () {
+        var leave = [{
+            id: 0,
+            name: 'task 1',
+            status: 'overdue'
+        }];
+        return {
+            all: function () {
+                //todo: call to save leave to database
+                return leave;
+            }
+        }
+    })
 ;

@@ -28,6 +28,8 @@ angular.module('starter.controllers', [])
     $scope.friend = Friends.get($stateParams.friendId);
 })
 
-.controller('AccountCtrl', function ($scope, UserProfile) {
+    .controller('LeaveCtrl', function ($scope) {
+            })
+    .controller('AccountCtrl', function ($scope, UserProfile) {
     $scope.userprofile = UserProfile.all();
 });

@@ -76,24 +76,34 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
             }
         }
     })
-      .state('tab.tasks', {
+        .state('tab.requests', {
+            url: '/requests',
+            views: {
+                'tab-requests': {
+                    templateUrl: 'templates/tab-requests.html',
+                    controller: 'RequestsCtrl'
+                }
+            }
+        })
+       .state('tab.leave', {
+            url: '/leave',
+            views: {
+                'tab-leave': {
+                    templateUrl: 'templates/tab-leave.html',
+                    controller: 'LeaveCtrl'
+                }
+            }
+        })
+        .state('tab.tasks', {
         url: '/tasks',
         views: {
-            'tab-requests': {
+            'tab-tasks': {
                 templateUrl: 'templates/tab-tasks.html',
                 controller: 'TasksCtrl'
             }
         }
     })
-      .state('tab.requests', {
-        url: '/requests',
-        views: {
-            'tab-requests': {
-                templateUrl: 'templates/tab-requests.html',
-                controller: 'RequestsCtrl'
-            }
-        }
-    })
+
     .state('tab.friend-detail', {
         url: '/friend/:friendId',
         views: {
@@ -103,7 +113,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
             }
         }
     })
-
   .state('tab.account', {
         url: '/account',
         views: {
