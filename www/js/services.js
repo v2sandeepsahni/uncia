@@ -166,4 +166,18 @@ angular.module('starter.services', [])
             return userprofile;
         }
     }
-});
+})
+
+.factory('Tasks',function(){
+        var tasks=[{
+            id:0,
+            name:'task 1',
+            status:'overdue'
+        }];
+        return {
+            all: function () {
+                return tasks;
+            }
+        }
+    })
+;

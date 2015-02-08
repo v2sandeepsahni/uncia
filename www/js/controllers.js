@@ -20,6 +20,10 @@ angular.module('starter.controllers', [])
         $scope.requests = Requests.all();
     })
 
+    .controller('TasksCtrl', function($scope, Tasks) {
+        $scope.tasks = Tasks.all();
+    })
+
 .controller('FriendDetailCtrl', function($scope, $stateParams, Friends) {
   $scope.friend = Friends.get($stateParams.friendId);
 })
