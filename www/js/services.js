@@ -1,10 +1,10 @@
 angular.module('starter.services', [])
 
-.factory('Chats', function () {
-    // Might use a resource here that returns a JSON array
-    
-    // Some fake testing data
-    var chats = [{
+    .factory('Chats', function () {
+        // Might use a resource here that returns a JSON array
+
+        // Some fake testing data
+        var chats = [{
             id: 0,
             name: 'Ben Sparrow',
             lastText: 'You on your way?',
@@ -30,33 +30,33 @@ angular.module('starter.services', [])
             lastText: 'Look at my mukluks!',
             face: 'https://pbs.twimg.com/profile_images/491995398135767040/ie2Z_V6e.jpeg'
         }];
-    
-    return {
-        all: function () {
-            return chats;
-        },
-        remove: function (chat) {
-            chats.splice(chats.indexOf(chat), 1);
-        },
-        get: function (chatId) {
-            for (var i = 0; i < chats.length; i++) {
-                if (chats[i].id === parseInt(chatId)) {
-                    return chats[i];
+
+        return {
+            all: function () {
+                return chats;
+            },
+            remove: function (chat) {
+                chats.splice(chats.indexOf(chat), 1);
+            },
+            get: function (chatId) {
+                for (var i = 0; i < chats.length; i++) {
+                    if (chats[i].id === parseInt(chatId)) {
+                        return chats[i];
+                    }
                 }
+                return null;
             }
-            return null;
         }
-    }
-})
+    })
 
 /**
  * A simple example service that returns some data.
  */
     .factory('Requests', function () {
-    // Might use a resource here that returns a JSON array
-    
-    // Some fake testing data
-    var requests = [{
+        // Might use a resource here that returns a JSON array
+
+        // Some fake testing data
+        var requests = [{
             id: 0,
             name: 'Leave Request',
             notes: 'Submit new leave request',
@@ -86,26 +86,26 @@ angular.module('starter.services', [])
             icon : 'ion-android-walk',
             action: 'gatepass'
         }];
-    
-    return {
-        all: function () {
-            return requests;
-        },
-        get: function (friendId) {
-            // Simple index lookup
-            return requests[friendId];
+
+        return {
+            all: function () {
+                return requests;
+            },
+            get: function (friendId) {
+                // Simple index lookup
+                return requests[friendId];
+            }
         }
-    }
-})
+    })
 
 /**
  * A simple example service that returns some data.
  */
-.factory('Friends', function () {
-    // Might use a resource here that returns a JSON array
-    
-    // Some fake testing data
-    var friends = [{
+    .factory('Friends', function () {
+        // Might use a resource here that returns a JSON array
+
+        // Some fake testing data
+        var friends = [{
             id: 0,
             name: 'Ben Sparrow',
             notes: 'Enjoys drawing things',
@@ -131,55 +131,55 @@ angular.module('starter.services', [])
             notes: 'Just the nicest guy',
             face: 'https://pbs.twimg.com/profile_images/491995398135767040/ie2Z_V6e.jpeg'
         }];
-    
-    
-    return {
-        all: function () {
-            return friends;
-        },
-        get: function (friendId) {
-            // Simple index lookup
-            return friends[friendId];
+
+
+        return {
+            all: function () {
+                return friends;
+            },
+            get: function (friendId) {
+                // Simple index lookup
+                return friends[friendId];
+            }
         }
-    }
-})
+    })
 
 /**
  * A simple example service that returns some data.
  */
-.factory('UserProfile', function () {
-    // Might use a resource here that returns a JSON array
-    
-    // Some fake testing data
-    var userprofile = {
-        id: 0,
-        name: 'Mobile User',
-        address: 'Enjoys drawing things',
-        homephone: '2342424',
-        mobile: '23',
-        email: 'test@test.com',
-        dept: 'stupid'
-    }
-    
-    return {
-        all: function () {
-            return userprofile;
-        }
-    }
-})
+    .factory('UserProfile', function () {
+        // Might use a resource here that returns a JSON array
 
-.factory('Tasks', function () {
-    var tasks = [{
+        // Some fake testing data
+        var userprofile = {
+            id: 0,
+            name: 'Mobile User',
+            address: 'Enjoys drawing things',
+            homephone: '2342424',
+            mobile: '23',
+            email: 'test@test.com',
+            dept: 'stupid'
+        }
+
+        return {
+            all: function () {
+                return userprofile;
+            }
+        }
+    })
+
+    .factory('Tasks', function () {
+        var tasks = [{
             id: 0,
             name: 'task 1',
             status: 'overdue'
         }];
-    return {
-        all: function () {
-            return tasks;
+        return {
+            all: function () {
+                return tasks;
+            }
         }
-    }
-})
+    })
 
     .factory('Leave', function () {
         var leave = [{
