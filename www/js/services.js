@@ -49,9 +49,6 @@ angular.module('starter.services', [])
         }
     })
 
-/**
- * A simple example service that returns some data.
- */
     .factory('Requests', function () {
         // Might use a resource here that returns a JSON array
 
@@ -98,9 +95,6 @@ angular.module('starter.services', [])
         }
     })
 
-/**
- * A simple example service that returns some data.
- */
     .factory('Friends', function () {
         // Might use a resource here that returns a JSON array
 
@@ -144,9 +138,6 @@ angular.module('starter.services', [])
         }
     })
 
-/**
- * A simple example service that returns some data.
- */
     .factory('UserProfile', function () {
         // Might use a resource here that returns a JSON array
 
@@ -171,9 +162,22 @@ angular.module('starter.services', [])
     .factory('Tasks', function () {
         var tasks = [{
             id: 0,
-            name: 'task 1',
+            name: 'Sandeep Sahni',
+            type:'Leave',
             status: 'overdue'
-        }];
+        },
+            {
+                id: 1,
+                name: 'Nishant',
+                type:'Out Door Duty',
+                status: 'overdue'
+            },
+            {
+                id: 2,
+                name: 'Meenakshi',
+                type:'Comp-Off',
+                status: 'overdue'
+            }];
         return {
             all: function () {
                 return tasks;
