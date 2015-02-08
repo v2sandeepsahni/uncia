@@ -67,24 +67,24 @@ angular.module('starter.services', [])
             name: 'Mis-Punch Request',
             notes: 'Add new mis-puch request',
             icon: 'ion-ios-download',
-            action: 'https://avatars3.githubusercontent.com/u/11214?v=3&s=460'
+            action: 'mispunch'
         }, {
             id: 2,
             name: 'Out-Door Request',
             notes: 'Add out-door visit request',
             icon: 'ion-model-s',
-            action: 'https://pbs.twimg.com/profile_images/491274378181488640/Tti0fFVJ.jpeg'
+            action: 'outdoorduty'
         }, {
             id: 3,
             name: 'Comp-Off Request',
             notes: 'Apply for comp-off',
-            action: 'https://pbs.twimg.com/profile_images/491995398135767040/ie2Z_V6e.jpeg'
+            action: 'compoff'
         }, {
             id: 4,
             name: 'Gate-Pass Request',
             notes: 'Apply for gate pass',
             icon : 'ion-android-walk',
-            action: 'https://pbs.twimg.com/profile_images/491995398135767040/ie2Z_V6e.jpeg'
+            action: 'gatepass'
         }];
     
     return {

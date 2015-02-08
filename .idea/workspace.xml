@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ee5b1e0-55f1-4aeb-9eb1-72fc21179868" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/tab-leave.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/mispunch.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/outdoorduty.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers.js" afterPath="$PROJECT_DIR$/www/js/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/services.js" afterPath="$PROJECT_DIR$/www/js/services.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/tab-requests.html" afterPath="$PROJECT_DIR$/www/templates/tab-requests.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/tabs.html" afterPath="$PROJECT_DIR$/www/templates/tabs.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="E:\RAD\uncia\www\templates\tab-leave.html" afterPath="$PROJECT_DIR$/www/templates/leave.html" />
     </list>
     <ignored path="uncia.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,19 +37,24 @@
       <file leaf-file-name="tabs.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/tabs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.346153" vertical-offset="25" max-vertical-offset="714">
-              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="17" />
+            <state vertical-scroll-proportion="-19.961538" vertical-offset="25" max-vertical-offset="816">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tab-leave.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/tab-leave.html">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="544">
-              <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="954" max-vertical-offset="2057">
+              <caret line="110" column="34" selection-start-line="110" selection-start-column="34" selection-end-line="110" selection-end-column="34" />
+              <folding>
+                <element signature="e#2184#2387#0" expanded="false" />
+                <element signature="e#2420#2659#0" expanded="false" />
+                <element signature="e#2688#2907#0" expanded="false" />
+                <element signature="e#2940#3171#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,22 +62,39 @@
       <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-              <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/js/app.js">
+      <file leaf-file-name="leave.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/leave.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64090174" vertical-offset="1098" max-vertical-offset="2023">
-              <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
-              <folding>
-                <element signature="e#3175#3394#0" expanded="false" />
-                <element signature="e#3420#3623#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="714">
+              <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mispunch.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/mispunch.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="612">
+              <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="outdoorduty.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/outdoorduty.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="731">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -89,20 +113,20 @@
         <entry file="file://$PROJECT_DIR$/www/templates/tab-requests.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="255">
-              <caret line="3" column="152" selection-start-line="3" selection-start-column="152" selection-end-line="3" selection-end-column="152" />
+              <caret line="3" column="144" selection-start-line="3" selection-start-column="144" selection-end-line="3" selection-end-column="144" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="services.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="2414">
-              <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.6537842" vertical-offset="1056" max-vertical-offset="2414">
+              <caret line="86" column="29" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
               <folding>
-                <element signature="e#3227#4587#0" expanded="false" />
-                <element signature="e#4686#5099#0" expanded="false" />
+                <element signature="e#2998#4358#0" expanded="false" />
+                <element signature="e#4457#4870#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -124,12 +148,15 @@
         <option value="$PROJECT_DIR$/platforms/android/build.xml" />
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/templates/tab-tasks.html" />
-        <option value="$PROJECT_DIR$/www/js/services.js" />
         <option value="$PROJECT_DIR$/www/templates/tab-leave.html" />
-        <option value="$PROJECT_DIR$/www/js/controllers.js" />
         <option value="$PROJECT_DIR$/www/templates/tab-requests.html" />
+        <option value="$PROJECT_DIR$/www/templates/leave.html" />
+        <option value="$PROJECT_DIR$/www/templates/mispunch.html" />
+        <option value="$PROJECT_DIR$/www/templates/outdoorduty.html" />
         <option value="$PROJECT_DIR$/www/templates/tabs.html" />
         <option value="$PROJECT_DIR$/www/js/app.js" />
+        <option value="$PROJECT_DIR$/www/js/controllers.js" />
+        <option value="$PROJECT_DIR$/www/js/services.js" />
       </list>
     </option>
   </component>
@@ -366,20 +393,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.bowerrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="621">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="621">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="621">
@@ -684,14 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-          <caret line="30" column="45" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/tab-chats.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="357">
@@ -700,48 +705,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/services.js">
+    <entry file="file://$PROJECT_DIR$/www/templates/leave.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="738" max-vertical-offset="2414">
-          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
-          <folding>
-            <element signature="e#3227#4587#0" expanded="false" />
-            <element signature="e#4686#5099#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="714">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tab-requests.html">
+    <entry file="file://$PROJECT_DIR$/www/templates/mispunch.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="255">
-          <caret line="3" column="152" selection-start-line="3" selection-start-column="152" selection-end-line="3" selection-end-column="152" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/tabs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.346153" vertical-offset="25" max-vertical-offset="714">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="17" />
+        <state vertical-scroll-proportion="-19.961538" vertical-offset="25" max-vertical-offset="816">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/tab-leave.html">
+    <entry file="file://$PROJECT_DIR$/www/templates/outdoorduty.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+        <state vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="731">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64090174" vertical-offset="1098" max-vertical-offset="2023">
-          <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="954" max-vertical-offset="2057">
+          <caret line="110" column="34" selection-start-line="110" selection-start-column="34" selection-end-line="110" selection-end-column="34" />
           <folding>
-            <element signature="e#3175#3394#0" expanded="false" />
-            <element signature="e#3420#3623#0" expanded="false" />
+            <element signature="e#2184#2387#0" expanded="false" />
+            <element signature="e#2420#2659#0" expanded="false" />
+            <element signature="e#2688#2907#0" expanded="false" />
+            <element signature="e#2940#3171#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/tab-requests.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="255">
+          <caret line="3" column="144" selection-start-line="3" selection-start-column="144" selection-end-line="3" selection-end-column="144" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6537842" vertical-offset="1056" max-vertical-offset="2414">
+          <caret line="86" column="29" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
+          <folding>
+            <element signature="e#2998#4358#0" expanded="false" />
+            <element signature="e#4457#4870#0" expanded="false" />
           </folding>
         </state>
       </provider>

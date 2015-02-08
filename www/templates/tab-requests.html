@@ -1,7 +1,7 @@
 <ion-view view-title="Requests">
     <ion-content>
         <ion-list>
-            <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="request in requests" type="item-text-wrap" href="#/tab/Requests/{{request.action}}">
+            <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="request in requests" type="item-text-wrap" href="#/tab/{{request.action}}">
                 <h2><i class="{{request.icon}}"></i> {{request.name}}</h2>
             </ion-item>
         </ion-list>

@@ -8,11 +8,9 @@ angular.module('starter.controllers', [])
         Chats.remove(chat);
     }
 })
-
 .controller('ChatDetailCtrl', function ($scope, $stateParams, Chats) {
     $scope.chat = Chats.get($stateParams.chatId);
 })
-
 .controller('FriendsCtrl', function ($scope, Friends) {
     $scope.friends = Friends.all();
 })
@@ -28,8 +26,9 @@ angular.module('starter.controllers', [])
     $scope.friend = Friends.get($stateParams.friendId);
 })
 
-    .controller('LeaveCtrl', function ($scope) {
-            })
+    .controller('LeaveCtrl', function ($scope) { })
+    .controller('MispunchCtrl',function($scope){})
+    .controller('OutdoordutyCtrl',function($scope){})
     .controller('AccountCtrl', function ($scope, UserProfile) {
     $scope.userprofile = UserProfile.all();
 });

@@ -88,9 +88,27 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
        .state('tab.leave', {
             url: '/leave',
             views: {
-                'tab-leave': {
-                    templateUrl: 'templates/tab-leave.html',
+                'leave': {
+                    templateUrl: 'templates/leave.html',
                     controller: 'LeaveCtrl'
+                }
+            }
+        })
+        .state('tab.mispunch', {
+            url: '/mispunch',
+            views: {
+                'mispunch': {
+                    templateUrl: 'templates/mispunch.html',
+                    controller: 'MispunchCtrl'
+                }
+            }
+        })
+        .state('tab.outdoorduty', {
+            url: '/outdoorduty',
+            views: {
+                'outdoorduty': {
+                    templateUrl: 'templates/outdoorduty.html',
+                    controller: 'OutdoordutyCtrl'
                 }
             }
         })

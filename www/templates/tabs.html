@@ -20,13 +20,19 @@ navigation history that also transitions its views in and out.
         <ion-nav-view name="tab-tasks"></ion-nav-view>
     </ion-tab>
     <!-- Friends Tab -->
-    <ion-tab title="Employees" icon-off="ios7-people-outline" icon-on="ios7-people" href="#/tab/friends">
+    <ion-tab title="Employees"  icon-off="ios7-people-outline" icon-on="ios7-people" href="#/tab/friends">
         <ion-nav-view name="tab-friends"></ion-nav-view>
     </ion-tab>
-    <!--
-    <ion-tab title="Leave" icon-off="ios7-people-outline" icon-on="ios7-people" href="#/tab/leave">
-        <ion-nav-view name="tab-leave"></ion-nav-view>
-    </ion-tab>-->
+    <!--Hidden-->
+    <ion-tab title="Leave"  class="tab-hidden" icon-off="ios7-people-outline" icon-on="ios7-people" href="#/tab/leave">
+        <ion-nav-view name="leave"></ion-nav-view>
+    </ion-tab>
+    <ion-tab title="Mispunch"  class="tab-hidden" icon-off="ios7-people-outline" icon-on="ios7-people" href="#/tab/mispunch">
+        <ion-nav-view name="mispunch"></ion-nav-view>
+    </ion-tab>
+    <ion-tab title="Outdoorduty"  class="tab-hidden" icon-off="ios7-people-outline" icon-on="ios7-people" href="#/tab/mispunch">
+        <ion-nav-view name="outdoorduty"></ion-nav-view>
+    </ion-tab>
 
     <!-- Account Tab -->
     <ion-tab title="Account" icon-off="ion-ios7-gear-outline" icon-on="ion-ios7-gear" href="#/tab/account">
