@@ -1,7 +1,7 @@
 {
-  "name": "novaApp",
+  "name": "uncia",
   "version": "1.0.0",
-  "description": "novaApp: Technova Enterprise mobile app",
+  "description": "uncia: An Ionic project",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^0.7.1",

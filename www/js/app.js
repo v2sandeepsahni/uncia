@@ -76,15 +76,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         }
       }
     })
-      .state('tab.requests', {
-          url: '/requests',
-          views: {
-              'tab-requests': {
-                  templateUrl: 'templates/tab-requests.html',
-                  controller: 'RequestsCtrl'
-              }
-          }
-      })
     .state('tab.friend-detail', {
       url: '/friend/:friendId',
       views: {
